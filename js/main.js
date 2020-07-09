@@ -1,3 +1,9 @@
+function intro_open(){
+    document.getElementById("service").style.display = 'none';
+    document.getElementById('projects').style.display = 'none';
+    document.getElementById('contact').style.display = 'none';
+    document.getElementById('about').style.display = 'none';
+}
 
 function service_open(){
     document.getElementById("service").style.display = 'block';
