@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    font-family: 'Inconsolata', monospace;
+}
+.nav{
+    overflow: hidden;
+    background-color: black;
+}
+.nav a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 10px;
+}
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.nav a.active{
+    background-color: forestgreen;
+    color: white;
+}
+.social{
+    float: right;
+}
+
+.top-banner{
+    margin-top: 2%;
+    height: 500px;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+
+.half-width img{
+    width: 100%;
+}
+
+.name-highlight{
+    color: sandybrown;
+}
+
+#web{
+    color: rgb(179, 2, 2);
+}
+
+#python{
+    color: rgb(255, 53, 53);
+}
+
+#photograph{
+    color: rgb(255, 140, 140);
+}
+
+.dream-area{
+    margin-top: 2%;
+    height: 500px;
+}
+
+.service-list{
+    margin: 4%;
+}
+
+.service-list-one-to-one{
+    padding: 10px 20px;
+    border: 1px solid #e8e8e8;
+    position: relative;
+    display: inline-block;
+    width: 326px;
+    height: 256px;
+}
+
+.service-image{
+    text-align: center;
+    width: 57px;
+    height: 56.6px;
+}
+
+.link-button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(rgb(255, 188, 188), tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.third-half-width{
+    background-image: url('images/latest-work-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8px;
+    margin-top: 50px;
+    display: none;
+}
+
+.third-half-width .work{
+    margin-top: 10%;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+
+.third-half-width .work #work1, #work2, #work3{
+    display: inline-block;
+    width: 28%;
+    padding: 2%;
+}
+
+#contact{
+    display: none;
+}
+
+.message{
+    background-image: linear-gradient(180deg, #ec4f8f, #ed4b71);
+    text-align: center;
+    height: 250px;
+    width: 66%;
+    margin-right: 17%;
+    margin-left: 17%;
+}
+
+.message-in-text{
+    text-decoration: none;
+    padding-top: 50px;
+    color: white;
+}

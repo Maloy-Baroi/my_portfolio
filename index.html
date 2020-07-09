@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maloy Baroi | portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap" rel="stylesheet">
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <section class="nav">
+        <a href="#inro"><p>Intro</p></a>
+        <a href="#service"><p onclick="service_open()">Services</p></a>
+        <a href="#projects"><p onclick="projects_open()">Projects</p></a>
+        <a href="#contact"><p onclick="contact_open()">Contact</p></a>
+        <a href="#about"><p onclick="about_open()">About</p></a>
+        <div class="social">
+            <a href="https://www.facebook.com/Maloy.humanbeing" target="_blank"><i class="fa fa-facebook-official" style="font-size:24px;color: #3b5998"></i></a>
+            <a href="https://twitter.com/Maloy_Virat" target="_blank"><i class="fa fa-twitter-square" style="font-size:24px;color: #00acee"></i></a>
+            <a href="https://www.linkedin.com/in/maloy-baroi-745915163/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:24px;color: #0e76a8"></i></a>
+        </div>
+    </section>
+    <section class="top-banner" id="intro">
+        <div class="half-width">
+            <h1>Welcome To<br> <span class="orange-highlighter">Maloy Baroi's</span> website</h1>
+            <h3 id="web">Web Developer</h3>
+            <h4 id="python">Python Developer</h4>
+            <h5 id="photograph">Photographer</h5>
+            <br>
+            <h2>Python Developer</h2>
+            <p>Python is a general purpose language. We can use it to web development, application development, machine learning, AI etc. I'm a junior level python developer. I have been learning it for 3 years. I have completed many courses in online and those are certified organizations.</p>
+            <a href="https://www.linkedin.com/mwlite/in/maloy-baroi-745815163" target="_blank" class="link-button">linkedin</a>
+        </div>
+        <div class="half-width">
+            <img src="images/my-bg.png" alt="Picture" id="propic">
+        </div>
+    </section>
+    <section class="dream-area">
+        <div class="half-width">
+            <img src="images/my-bg2.png" alt="picture">
+        </div>
+        <div class="half-width">
+            <h2>My Dream </h1>
+            <h3>Become a web developer</h3>
+            <p>I am Maloy Baroi, I'm studying in Daffodil Institute of IT(DIIT) on Computer Science and Engineering. I want to be a professional web developer. I believe any work can be completed with 50% hard work, 25% passion and 25% luck. So, therefore, I want to be a web developer, I will be. Because I'm hard working and passionate about it. And my 25% is not in my hand, I leave that on the hand of my God.</p>
+            <a href="files/CV.pdf" target="_blank" class="link-button" download>DOWNLOAD RESUME</a>
+        </div>
+    </section>
+    <section id="service" style="display: none;">
+        <div style="background-image: url('images/bradcam.jpg'); width: 100%;">
+            <h1 style="font-size: 90px; text-align: center; color: snow;">Services</h1>
+        </div>
+        <div class="service-list">
+            <div class="service-list-one-to-one">
+                <img class="service-image" src="images/grapics-removebg-preview.png" alt="graphics">
+                <h1>Graphics Design</h1>
+                <p>“There are three responses to a piece of design – yes, no, and WOW! Wow is the one to aim for.” </p>
+            </div>
+            <div class="service-list-one-to-one">
+                <img class="service-image" src="images/web_dev-removebg-preview.png" alt="Web Development">
+                <h1>Web Development</h1>
+                <p>“Work in web can't be valueless. Just the system will change. Web is a net of network.”</p>
+            </div>
+            <div class="service-list-one-to-one">
+                <img class="service-image" src="images/photography.png" alt="photography">
+                <h1>Photography</h1>
+                <p>“The best thing about a picture is that it never changes, even when the people in it do.”</p>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section class="third-half-width" id="projects">
+        <h1 style="text-align: center;">My Latest Work</h1>
+        <div class="work">
+            <img src="images/latest-work/work-1.png" alt="work-1" id="work1">
+            <img src="images/latest-work/work-2.jpg" alt="work-2" id="work2">
+            <img src="images/latest-work/work-3.jpg" alt="work-3" id="work3">
+        </div>
+    </section>
+    <br>
+    <section id="contact">
+        <div class="message">
+            <p class="message-in-text" style="font-size: 20px; padding-bottom: 5px">Leave me a message in the</p>
+            <a href="https://mail.google.com/" class="message-in-text" style="font-size: 40px;" target="_blank" id="email"><p onclick="text_to_clipboard()">maloy.virat@gmail.com</p></a>
+            <p style="font-size: 10px;">clicking email address will be coppied to the clipboard</p>
+        </div>
+    </section>
+    <br>
+    <section id="about">
+
+    </section>
+    <br>
+    <footer style="text-align: center;">
+        <p>© Maloy Baroi, All copyright reserved.</p>
+    </footer>
+</body>
+</html>
